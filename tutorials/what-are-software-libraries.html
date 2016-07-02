@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width = device-width, initial-scale = 1">
+		
+		<title>Jack's Resume</title>
+		
+		<!-- Include Minified Bootstrap Stylesheets from Local Dir -->
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.min.css" />
+		
+		<!-- Include Custom CSS Files from Local Dir -->
+		<link rel="stylesheet" href="../custom/css/main.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Jack's Site</a>
+					</div>
+				
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html">Home Page<span class="sr-only">(current)</span></a></li>
+							<li><a href="../projects.html">Projects</a></li>
+							<li><a href="tutorials.html">Tutorials</a></li>
+							<li><a href="resume.html">Resume</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+			<br><br>
+			<div class="page-header">
+				<h1>What Are Software Libraries?</h1>
+			</div>
+			
+			<article>
+				<p>Software libraries are off-the-shelf or bespoke software
+				components that software uses to enhance its functionality.
+				The extended functionality can be practically anything:
+				GPS navigation, graphics rendering/rasterisation,
+				peripheral I/O, neural networks, TCP/IP networked communication,
+				computer vision, etc.</p>
+
+				<p>Software libraries can be used and reused as components 
+				in essentially any conceivable application. They're sometimes
+				referred to as APIs (or part of an API, Application Programming Interface),
+				SDK, or packages. Basically, they're a set of reusable
+				software components (program and data) used to extend a program's functionality.</p>
+
+				<h2>Where are they used?</h2>
+				<p>Practically every software application you use will make use of an outsourced software
+				library. Here are some examples that apply to building robots: </p>
+				
+				<ul>
+					<li>SolidWorks, AutoCAD, Inventor, and most other Computer Aided Design (CAD) packages likely
+					either use OpenGL or Direct3D for their 3D graphics rendering. OpenGL
+					is an open-source software library devoted to 3D graphics, where-as
+					Direct3D is a proprietary, closed-sourced library which is part of the
+					DirectX API and owned by Microsoft.</li>
+					<li>
+					<li>Office packages like Microsoft Word and LibreOffice might make use of libraries such as the Qt Framework
+					for displaying graphical user interfaces (GUIs) or Boost for software constructs for back-end software
+					constructs like complex lists and arrays/data structures.</li>
+					<li>Some robots used in research environments like 
+					the PR2 make use of the Robot Operating System (ROS)
+					which is an open-source robotics software framework
+					and toolkit providing an array of functionality
+					including device driver access and a simulator.</li>
+					<li>The software actually running a robot might be
+					utilising a library for complex tasks such as
+					networking with other robots, GPS navigation, 
+					simaultaneous localisation and mapping (SLAM,
+					basically how a robot learns and navigates its
+					environment), retrieving and storing data within 
+					a database, interacting with device drivers 
+					through a kernel such as Linux, etc.</li>
+				</ul>
+
+
+				<h2>How are software libraries made?</h2>
+				<p>Software libraries are usually very complex
+				and implemented close to hardware specs in the case of 
+				tasks like 3D graphics rendering and TCP/IP networks.</p>
+
+				<p>They're usually built by separate groups and 
+				companies and distributed as off-the-shelf packages
+				under a proprietary or open license. Some companies
+				prefer to build their own software libraries, however
+				it saves a lot of time and money to use one that's
+				already been developed and tested rather than
+				reinventing the wheel.</p>
+
+				<p>I hope I have adequately explained software
+				libraries to the robot creator. If you have questions
+				or suggestions, please leave a comment and I'll get back
+				to you as soon as possible.</p>
+			</article>
+			
+		</div>
+			
+		<!-- Inline Script -->
+		<script src="../custom/js/main.js"></script>
+		
+		<!-- Include JQuery from Local Dir -->
+		<script src="../jquery/jquery-1.12.4.js"></script>
+		
+		<!-- Include Minified Javascripts from Local Dir -->
+		<script src="../bootstrap/js/bootstrap.min.js"></script>
+	</body>
+
+</html>

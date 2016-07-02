@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width = device-width, initial-scale = 1">
+		
+		<title>Jack's Resume</title>
+		
+		<!-- Include Minified Bootstrap Stylesheets from Local Dir -->
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.min.css" />
+		
+		<!-- Include Custom CSS Files from Local Dir -->
+		<link rel="stylesheet" href="../custom/css/main.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Jackson Steel</a>
+					</div>
+				
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Home Page</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li class="active"><a href="tutorials.html">Tutorials</a></li>
+							<li><a href="resume.html">Resume</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+			
+			<br><br>
+			<header>
+				<div class="page-header">
+					<h1>What are Sensors?</h1>
+				</div>
+			</header>
+			
+			<article>
+				<section>
+					<h1>What is a Sensor?</h1>
+
+					<p>A sensor is a device used to sense its
+					surrounding environment. This could be in order to
+					record data, react to external stimuli (such as when
+					a robot "sees" a wall, stops, then moves around it),
+					take in user input (a keyboard could be considered a
+					"sensor", and especially things like microphones and
+					cameras), etc. It basically takes just takes in data
+					so the system can react to it.</p>
+
+					<p>The word "sensor" is pretty vague and could be
+					used to describe simple transducers (like
+					piezoelectric components, thermistors or IR sensors),
+					more complex systems of modules (like web cams,
+					Arduino modules or microphones), and sometimes
+					(but not so often) things like keyboards and mice.</p>
+
+					<h2>Uses of Sensors</h2>
+
+					<p>Without sensors, the system wouldn't know how to
+					react in the environment. Robots incorporate many
+					different sensors. These sensors could be to
+					photograph the environment, know when it approaches
+					a wall (like those hobbyist 3-wheelers), know when
+					its being interacted with by the user, take in radio
+					frequencies, sense variations in pressure (think of
+					robot fingers), etc.</p>
+
+					<p>Sensors can also be used as part of a feedback
+					control system. For robots this feedback control
+					could be used to keep both wheels/propellers
+					spinning at the same speed - a sensor (probably a
+					tachometer) would measure the wheel's rev speed
+					then vary the power to the motors in order to
+					regulate it.</p>
+
+					<h2>Some Different Sensors</h2>
+					<p>There are loads of different sensors. Here's some
+					to get you started:
+
+					<h3>Photoresistor (LDR)</h3>
+					<p>Photoresistors are electronic devises that vary
+					their electrical resistance based on the brightness
+					of the light shown upon it. They're used to allow
+					robots to distinguish varying levels of light in
+					the environment in order to do things like detect
+					and avoid walls, follow lines on the ground, follow 
+					the bright light at the end of the tunnel, etc.</p>
+
+					<h3>Piezoelectrics, Stress Gauges (and other things
+					that change based on stress/pressure)</h3>
+					<p>Piezoelectrics vary voltage depending on the
+					amount of stress applied on the materials. They can
+					be used to build stress gauges (which can also be
+					considered sensors), robotic fingers (think of when
+					a robot holds a coke can, how does it know how to 
+					grasp it?), and microphones as sound pressures can
+					also vary the voltage.</p>
+
+					<h3>Cameras</h3>
+					<p>Cameras are sensors too, and can allow the robot
+					to view then interact with its environment with
+					object recognition and facial recognition.</p>
+
+					<h3>Ultrasonic Sensors and Modules</h3>
+					<p>Ultrasonic sensors basically measure the 
+					intensity of high-frequency sound. They're used to
+					build modules like this one and can be used to allow
+					the robot to avoid walls, build a mental map of its
+					environment in order to navigate around and talk to
+					bats.</p>
+
+					<p>I hope that clarifies what sensor. Any 
+					questions/suggestions let me know in the comments
+					so I can improve it.</p>
+				</section>
+			</article>
+			
+		</div>
+	
+		<!-- Inline Script -->
+		<script src="../custom/js/main.js"></script>
+		
+		<!-- Include JQuery from Local Dir -->
+		<script src="../jquery/jquery-1.12.4.js"></script>
+		
+		<!-- Include Minified Javascripts from Local Dir -->
+		<script src="../bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
